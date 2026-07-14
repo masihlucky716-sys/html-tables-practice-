@@ -8,19 +8,16 @@ This project is part of my Full Stack Web Development journey where I am buildin
 
 ## 🚀 Project Status
 
-✅ Version : 1.3
-
-✅ Technology : HTML5
-
-✅ Status : In Progress
+- **Version:** 1.4
+- **Technology:** HTML5
+- **Status:** In Progress
 
 ---
 
 # ✨ Features
 
-- Responsive HTML Structure
-- Semantic HTML5 Tags
-- Header Section
+- Semantic HTML5 Structure
+- Header
 - Navigation Bar
 - Hero Section
 - About Us
@@ -29,19 +26,22 @@ This project is part of my Full Stack Web Development journey where I am buildin
 - Vision
 - Why Choose Us
 - Restaurant Menu
+- Gallery Section
+- Featured Dishes
+- Meet Our Chefs
+- Restaurant Highlights
+- Customer Testimonials
 - Reservation Form
 - Contact Section
 - Business Hours
 - Restaurant Address
-- Email Information
-- Phone Information
-- Social Media Section
+- Social Media Links
 - Footer
-- Back To Top Link
+- Back To Top Button
 
 ---
 
-# 🛠 Technologies Used
+# 🛠️ Technologies Used
 
 - HTML5
 
@@ -51,10 +51,9 @@ This project is part of my Full Stack Web Development journey where I am buildin
 
 ```
 Food-Paradise/
-
 │── index.html
-
 │── README.md
+│── images/
 ```
 
 ---
@@ -62,40 +61,41 @@ Food-Paradise/
 # 🎯 Learning Goals
 
 - Learn HTML5
-- Learn Semantic HTML
+- Practice Semantic HTML
 - Build Real World Projects
 - Improve Git & GitHub Skills
-- Build Recruiter Friendly Portfolio
+- Create Recruiter Friendly Portfolio
 
 ---
 
 # 📈 Git Commit Progress
 
-- ✅ Day 1 - Initial HTML Project
-- ✅ Day 2 - Header, Navigation & Hero Section
+- ✅ Day 1 - Project Initialization
+- ✅ Day 2 - Header, Navigation & Hero
 - ✅ Day 3 - About, Story, Mission & Vision
-- ✅ Day 4 & Day 5 - Reservation Form, Contact Section & Footer
+- ✅ Day 4 - Menu Section
+- ✅ Day 5 - Reservation, Contact & Footer
+- ✅ Day 6 - Gallery, Featured Dishes, Chefs, Highlights & Testimonials
 
 ---
 
-# 🚀 Future Updates
+# 🚀 Upcoming Features
 
-- Gallery Section
-- Restaurant Images
-- Audio & Video
-- Google Maps
 - FAQ Section
+- Video Section
+- Audio Section
+- Google Maps
 - CSS Styling
-- JavaScript Functionality
+- JavaScript
 - Responsive Design
 - React Version
 - MERN Stack Version
 
 ---
 
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
-Lucky Yoseph
+**Lucky Yoseph**
 
 B.Tech CSE Student
 
@@ -103,4 +103,4 @@ Learning Full Stack Web Development 🚀
 
 ---
 
-⭐ If you like this project, don't forget to star the repository.
+⭐ If you like this project, don't forget to star this repository.
