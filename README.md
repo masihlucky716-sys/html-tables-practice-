@@ -6,9 +6,9 @@ This project is part of my Full Stack Web Development journey where I am buildin
 
 ---
 
-## 🚀 Project Status
+# 🚀 Project Status
 
-- **Version:** 1.4
+- **Version:** 1.5
 - **Technology:** HTML5
 - **Status:** In Progress
 
@@ -31,6 +31,12 @@ This project is part of my Full Stack Web Development journey where I am buildin
 - Meet Our Chefs
 - Restaurant Highlights
 - Customer Testimonials
+- Video Section
+- Audio Section
+- Google Maps
+- FAQ Section
+- Newsletter Subscription
+- Progress & Meter Tags
 - Reservation Form
 - Contact Section
 - Business Hours
@@ -54,6 +60,8 @@ Food-Paradise/
 │── index.html
 │── README.md
 │── images/
+│── videos/
+│── audio/
 ```
 
 ---
@@ -71,23 +79,24 @@ Food-Paradise/
 # 📈 Git Commit Progress
 
 - ✅ Day 1 - Project Initialization
-- ✅ Day 2 - Header, Navigation & Hero
+- ✅ Day 2 - Header, Navigation & Hero Section
 - ✅ Day 3 - About, Story, Mission & Vision
-- ✅ Day 4 - Menu Section
+- ✅ Day 4 - Restaurant Menu
 - ✅ Day 5 - Reservation, Contact & Footer
 - ✅ Day 6 - Gallery, Featured Dishes, Chefs, Highlights & Testimonials
+- ✅ Day 7 - Video, Audio, Google Maps, FAQ, Newsletter & Progress Section
 
 ---
 
 # 🚀 Upcoming Features
 
-- FAQ Section
-- Video Section
-- Audio Section
-- Google Maps
+- Advanced HTML Elements
+- SEO Improvements
+- Accessibility Enhancements
 - CSS Styling
-- JavaScript
 - Responsive Design
+- JavaScript Functionality
+- Bootstrap Version
 - React Version
 - MERN Stack Version
 
@@ -99,8 +108,34 @@ Food-Paradise/
 
 B.Tech CSE Student
 
-Learning Full Stack Web Development 🚀
+Learning Full Stack Web Development
+
+Building Projects Daily 🚀
 
 ---
 
-⭐ If you like this project, don't forget to star this repository.
+## ⭐ Project Roadmap
+
+```
+HTML5          ✅
+CSS            ⏳
+JavaScript     ⏳
+Responsive UI  ⏳
+Bootstrap      ⏳
+React          ⏳
+Node.js        ⏳
+Express.js     ⏳
+MongoDB        ⏳
+MERN Stack     ⏳
+```
+
+---
+
+## 📌 Current Version
+
+**Food Paradise Restaurant Website v1.5**
+
+---
+
+⭐ Thank you for visiting this repository.
+If you like this project, don't forget to Star ⭐ the repository.
