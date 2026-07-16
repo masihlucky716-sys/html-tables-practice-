@@ -8,7 +8,7 @@ This project is part of my Full Stack Web Development journey where I am buildin
 
 # 🚀 Project Status
 
-- **Version:** 1.5
+- **Version:** 1.7 
 - **Technology:** HTML5
 - **Status:** In Progress
 
@@ -99,7 +99,10 @@ Food-Paradise/
 - Bootstrap Version
 - React Version
 - MERN Stack Version
-
+- CSS Styling
+- Responsive Design
+- Better UI
+- JavaScript Interactivity
 ---
 
 # 👨‍💻 Developer
