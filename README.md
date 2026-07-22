@@ -109,7 +109,7 @@ Food-Paradise/
 
 **Lucky Yoseph**
 
-B.Tech CSE Student
+B.Tech CSE Student 2 year 
 
 Learning Full Stack Web Development
 
