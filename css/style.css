@@ -9,51 +9,194 @@
    UNIVERSAL SELECTOR
 =========================== */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY SECTION */
+/* ===========================================
+   BODY SECTION
+=========================================== */
 
 body{
-    background-color:#954707;
-    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
     line-height: 1.6;
-    color:#190202;
+}
+/* ===========================================
+   IMAGE SETTINGS
+=========================================== */
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+} 
+
+/* ===========================================
+   LINKS
+=========================================== */
+
+a{
+    text-decoration:none;
+    color:inherit;
 }
 
+/* ===========================================
+   LISTS
+=========================================== */
+
+ul{
+    list-style:none;
+}
 /* ===========================================
    HEADER
 =========================================== */
 
+header{
+    background-color:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
 
+header h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
 
+header p{
+    font-size:18px;
+}
 /* ===========================================
    NAVIGATION
 =========================================== */
 
+nav{
+    background-color:#ff6b35;
+    padding:15px;
+}
 
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
 
+nav ul li a{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:yellow;
+}
 /* ===========================================
    HERO SECTION
 =========================================== */
 
+.hero{
+    background-color:#8b262665;
+    text-align:center;
+    padding:80px 20px;
+}
 
+.hero h2{
+    font-size:48px;
+    color:#222;
+    margin-bottom:20px;
+}
 
+.hero p{
+    font-size:20px;
+    color:#555;
+    margin-bottom:30px;
+}
+
+.hero button{
+    background-color:#ff6b35;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.hero button:hover{
+    background-color:#e85a2a;
+}
 /* ===========================================
    ABOUT SECTION
 =========================================== */
 
+#about{
+    background-color:#ffffff;
+    padding:60px 20px;
+    text-align:center;
+}
 
+#about h2{
+    font-size:36px;
+    color:#222;
+    margin-bottom:20px;
+}
 
+#about p{
+    max-width:900px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+    color:#555;
+}
 /* ===========================================
    MENU SECTION
 =========================================== */
 
+#menu{
+    background-color:#f8f8f8;
+    padding:60px 20px;
+    text-align:center;
+}
 
+#menu h2{
+    font-size:36px;
+    color:#222;
+    margin-bottom:40px;
+}
 
+.menu-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.menu-card{
+    background:white;
+    width:300px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu-card h3{
+    margin-bottom:10px;
+    color:#ff6b35;
+}
+
+.menu-card p{
+    color:#555;
+    margin-bottom:15px;
+}
+
+.menu-card span{
+    font-weight:bold;
+    color:#222;
+}
 /* ===========================================
    GALLERY SECTION
 =========================================== */
