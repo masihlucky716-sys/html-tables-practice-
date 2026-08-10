@@ -515,3 +515,354 @@ nav a:hover{
     font-size:17px;
 
 }
+/* =========================================
+   FEATURED DISHES SECTION
+========================================= */
+
+#featured-dishes{
+
+    text-align:center;
+
+    padding:60px 20px;
+
+}
+
+#featured-dishes h2{
+
+    font-size:36px;
+
+    margin-bottom:15px;
+
+}
+
+#featured-dishes > p{
+
+    font-size:18px;
+
+    margin-bottom:35px;
+
+}
+
+#featured-dishes article{
+
+    display:inline-block;
+
+    vertical-align:top;
+
+    width:300px;
+
+    margin:15px;
+
+    padding:15px;
+
+    background:white;
+
+    border-radius:12px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+
+}
+
+#featured-dishes img{
+
+    width:100%;
+
+    height:200px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+}
+
+#featured-dishes figcaption{
+
+    padding:15px 5px;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+}
+/* =========================================
+   GALLERY SECTION
+========================================= */
+
+#gallery{
+
+    text-align:center;
+    padding:60px 20px;
+
+}
+
+#gallery h2{
+
+    font-size:36px;
+    margin-bottom:15px;
+
+}
+
+#gallery > p{
+
+    font-size:18px;
+    margin-bottom:35px;
+
+}
+
+.gallery-container{
+
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+
+.gallery-item{
+
+    width:350px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+    margin:10px;
+
+}
+
+.gallery-item img{
+
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    display:block;
+
+}
+
+.gallery-item figcaption{
+
+    padding:15px;
+    font-size:17px;
+    font-weight:bold;
+
+}
+/* =========================================
+   MEET THE CHEF SECTION
+========================================= */
+
+#chef{
+
+    text-align:center;
+    padding:60px 20px;
+    background:#f8f8f8;
+
+}
+
+#chef h2{
+
+    font-size:36px;
+    margin-bottom:15px;
+
+}
+
+#chef p{
+
+    font-size:18px;
+    line-height:1.6;
+
+}
+
+#chef figure{
+
+    max-width:400px;
+    margin:30px auto;
+    background:white;
+    padding:15px;
+    border-radius:15px;
+    box-shadow:0 5px 18px rgba(0,0,0,0.15);
+
+}
+
+#chef img{
+
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    border-radius:12px;
+
+}
+
+#chef figcaption{
+
+    padding:15px;
+    font-size:20px;
+    font-weight:bold;
+
+}
+/* =========================================
+   RESERVATION SECTION
+========================================= */
+
+#reservation{
+
+    text-align:center;
+    padding:60px 20px;
+
+}
+
+#reservation h2{
+
+    font-size:36px;
+    margin-bottom:15px;
+
+}
+
+#reservation form{
+
+    max-width:600px;
+    margin:30px auto;
+    padding:30px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+
+}
+
+#reservation label{
+
+    display:block;
+    text-align:left;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+
+}
+
+#reservation input,
+#reservation select,
+#reservation textarea{
+
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    box-sizing:border-box;
+
+}
+
+#reservation textarea{
+
+    height:120px;
+    resize:vertical;
+
+}
+
+#reservation button{
+
+    margin-top:20px;
+    padding:12px 30px;
+    border:none;
+    border-radius:8px;
+    background:#222;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+
+}
+
+#reservation button:hover{
+
+    background:#FFD700;
+    color:#222;
+
+}
+/* =========================================
+   CONTACT SECTION
+========================================= */
+
+#contact{
+
+    text-align:center;
+    padding:60px 20px;
+    background:#f8f8f8;
+
+}
+
+#contact h2{
+
+    font-size:36px;
+    margin-bottom:15px;
+
+}
+
+#contact p{
+
+    font-size:18px;
+    line-height:1.8;
+    margin:8px 0;
+
+}
+
+#contact a{
+
+    color:#222;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+#contact a:hover{
+
+    color:#FFD700;
+
+}
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 768px){
+
+    nav{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    nav a{
+        margin:5px;
+    }
+
+    #home h1{
+        font-size:36px;
+    }
+
+    #home p{
+        font-size:18px;
+    }
+
+    .gallery-item{
+        width:90%;
+    }
+
+    #featured-dishes article{
+        width:90%;
+        margin:15px auto;
+    }
+
+    #chef figure{
+        width:90%;
+        box-sizing:border-box;
+    }
+
+    #chef img{
+        height:auto;
+    }
+
+    #reservation form{
+        width:90%;
+        box-sizing:border-box;
+    }
+
+}
