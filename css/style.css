@@ -354,15 +354,85 @@ nav ul li a:hover{
     font-weight:bold;
 
 }
-
-
-
-/* ===========================================
+/* =========================================
    CONTACT SECTION
-=========================================== */
+========================================= */
 
+#contact{
 
+    text-align:center;
+    padding:60px 20px;
+    background:#ffffff;
 
+}
+
+#contact h2{
+
+    font-size:36px;
+    margin-bottom:15px;
+
+}
+
+#contact > p{
+
+    font-size:18px;
+    margin-bottom:30px;
+
+}
+
+#contact h3{
+
+    font-size:22px;
+    margin-top:25px;
+    margin-bottom:10px;
+
+}
+
+#contact address{
+
+    font-style:normal;
+    font-size:17px;
+    line-height:1.8;
+
+}
+
+#contact table{
+
+    margin:20px auto;
+    border-collapse:collapse;
+    min-width:500px;
+
+}
+
+#contact th,
+#contact td{
+
+    padding:12px 18px;
+    border:1px solid #ccc;
+
+}
+
+#contact th{
+
+    font-weight:bold;
+
+}
+
+#contact ul{
+
+    list-style:none;
+    padding:0;
+    margin:15px 0;
+
+}
+
+#contact li{
+
+    display:inline-block;
+    margin:5px 10px;
+    font-weight:bold;
+
+}
 /* =========================================
    FOOTER SECTION
 ========================================= */
