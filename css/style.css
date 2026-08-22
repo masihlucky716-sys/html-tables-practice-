@@ -1012,3 +1012,344 @@ nav a:hover{
     }
 
 }
+/* =========================================
+   RESTAURANT HIGHLIGHTS
+========================================= */
+
+#highlights {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f8f8f8;
+}
+
+#highlights h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#highlights p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+#highlights article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+#highlights h3 {
+    color: #ff5733;
+    margin-bottom: 8px;
+}
+
+
+/* =========================================
+   CUSTOMER TESTIMONIALS
+========================================= */
+
+#testimonials {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffffff;
+}
+
+#testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#testimonials article {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+#testimonials h3 {
+    color: #ff5733;
+}
+
+#testimonials p {
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   MEDIA SECTION
+========================================= */
+
+#media {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f8f8f8;
+}
+
+#media h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#media video {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 15px;
+    margin: 25px auto;
+    display: block;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.2);
+}
+
+#media audio {
+    margin: 20px auto;
+    width: 400px;
+    max-width: 90%;
+}
+
+
+/* =========================================
+   MEDIA FEATURES
+========================================= */
+
+#features {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+}
+
+#features h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#features ul {
+    list-style: none;
+    padding: 0;
+}
+
+#features li {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 12px 20px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+/* =========================================
+   LOCATION SECTION
+========================================= */
+
+#location {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f8f8f8;
+}
+
+#location h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#location p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+#location address {
+    line-height: 1.8;
+    font-style: normal;
+}
+
+#location ul,
+#location ol {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+#location iframe {
+    width: 700px;
+    max-width: 95%;
+    height: 400px;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.2);
+}
+
+#location h3 {
+    margin-top: 25px;
+    color: #ff5733;
+}
+
+
+/* =========================================
+   FAQ SECTION
+========================================= */
+
+#faq {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+}
+
+#faq h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#faq details {
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 18px 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+#faq summary {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#faq details p {
+    line-height: 1.6;
+    margin-top: 12px;
+}
+
+
+/* =========================================
+   NEWSLETTER SECTION
+========================================= */
+
+#newsletter {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f8f8f8;
+}
+
+#newsletter h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#newsletter p {
+    line-height: 1.6;
+}
+
+#newsletter input[type="email"] {
+    width: 350px;
+    max-width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#newsletter input[type="submit"] {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #ff5733;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#newsletter input[type="submit"]:hover {
+    opacity: 0.85;
+}
+
+
+/* =========================================
+   RESTAURANT ACHIEVEMENTS
+========================================= */
+
+#progress {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+}
+
+#progress h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#progress p {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#progress progress,
+#progress meter {
+    width: 350px;
+    max-width: 90%;
+    height: 25px;
+}
+
+
+/* =========================================
+   SOCIAL SECTION
+========================================= */
+
+#social {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f8f8;
+}
+
+#social h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#social ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social li {
+    display: inline-block;
+    margin: 8px 15px;
+}
+
+#social a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff5733;
+}
+
+#social a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   RESPONSIVE LOCATION
+========================================= */
+
+@media (max-width: 768px) {
+
+    #location h2,
+    #faq h2,
+    #newsletter h2,
+    #progress h2 {
+        font-size: 28px;
+    }
+
+    #location iframe {
+        height: 300px;
+    }
+
+    #newsletter input[type="email"] {
+        width: 90%;
+    }
+
+}
